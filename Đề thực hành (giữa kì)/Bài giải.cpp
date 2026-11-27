@@ -24,17 +24,17 @@ int main()
     int n, a[MAX];
     taomang(n, a);
 
-    cout << "Mang vua tao: ";
+    cout << "Mảng vừa tạo: ";
     xuatmang(n, a);
 
-    cout << "Tong cac so nguyen to: " << tongngto(n, a) << endl;
-    cout << "So luong so chinh phuong: " << demsocp(n, a) << endl;
+    cout << "Tổng các số nguyên tố: " << tongngto(n, a) << endl;
+    cout << "Số lượng số chính phương: " << demsocp(n, a) << endl;
 
     int vt = vtriminofshc(n, a);
     if (vt != -1)
-        cout << "Vi tri so hoan chinh nho nhat: " << vt << " (gia tri: " << a[vt] << ")" << endl;
+        cout << "Vị trí số hoàn chỉnh nhỏ nhất: " << vt << " (giá trị: " << a[vt] << ")" << endl;
     else
-        cout << "Khong ton tai so hoan chinh trong mang (-1)" << endl;
+        cout << "Không tồn tại số hoàn chỉnh trong mảng (-1)" << endl;
 
     return 0;
 }
@@ -44,7 +44,7 @@ void taomang(int &n, int a[])
 {
     do
     {
-        cout << "Nhap so phan tu n (1.." << MAX << "): ";
+        cout << "Nhập số phần tử n n (1.." << MAX << "): ";
         cin >> n;
     } while (n <= 0 || n > MAX);
 
