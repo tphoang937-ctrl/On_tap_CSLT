@@ -1,0 +1,23 @@
+Khoa CNTT - SGU
+
+ĐỀ KIỂM TRA THỰC HÀNH
+MÔN CƠ SỞ LẬP TRÌNH
+Thời gian làm bài: 60 phút.
+
+Sinh viên cài đặt các chương trình sau trên máy tính, chương trình chỉ được chấm điểm nếu khi chạy lên được (Run).
+
+Bài 1: Viết hàm tạo ngẫu nhiên mảng 1 chiều gồm N phần tử, 
+hàm này nhập số phần tử vào và gán mỗi phần tử là một con số ngẫu nhiên. (1 điểm).
+Lưu ý: Hàm rand() trả về 1 con số ngẫu nhiên không âm, trong thư viện stdlib.
+Bài 2: Viết hàm xuất mảng ra màn hình (1 điểm)
+Bài 3: Viết hàm tính tổng các phần tử là số nguyên tố. Biết rằng số nguyên tố là số nguyên chỉ chia hết cho 1 và chính nó. (2 điểm). Hàm này trả về số phần tử đếm được.
+Bài 4: Đếm xem có bao nhiêu phần tử là số chính phương. Biết rằng số nguyên N là số chính phương nếu N có dạng bình phương của một số nguyên. VD: 4,9,16,... là số chính phương. (2 điểm). Hàm này trả về số phần tử đếm được.
+Bài 5: Viết hàm tìm kiếm phần tử là số hoàn chỉnh nhỏ nhất trong mảng (3 điểm). Biết rằng N là số hoàn chỉnh nếu tổng các ước số của N bằng N (không kể N) Nếu có trả về vị trí tìm thấy, nếu không trả về -1.
+Bài 6: Viết hàm main để gọi sử dụng các hàm trên (1 điểm).
+
+Yêu cầu:
+Các bài bắt buộc phải làm là: Bài 1: Tạo mảng ngẫu nhiên, Bài 2: Xuất mảng, Bài 6: Hàm main để sử dụng các hàm trên. Nếu không viết được Bài 1 thì có thể viết hàm Nhập mảng thay thế, tuy nhiên hàm này không có điểm, mục đích là phải có dữ liệu để làm các bài còn lại.
+Thứ tự gọi các hàm trong hàm main như sau:
+Gọi hàm Tạo mảng Ngẫu nhiên.
+Gọi hàm xuất mảng
+Các bài 3, bài 4, bài 5 có thể làm bài nào trước cũng được. Chạy được bài nào được điểm bài đó.
