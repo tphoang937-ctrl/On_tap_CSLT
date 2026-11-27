@@ -1,0 +1,40 @@
+Chương 6. Kỹ thuật lập trình con trỏ
+
+6.1. Cho mảng một chiều chứa n số nguyên dương.
+a. Nhập k; hãy xóa phần tử tại vị trí k.
+b. Nhập k, x; hãy chèn số nguyên x vào vị trí k.
+c. Hãy xóa các số nguyên tố trong mảng.
+
+6.2. Viết chương trình thực hiện các công việc sau:
+a. Nhập vào hồ sơ của n nhân viên với các thông tin: mã nhân viên, họ và tên, ngày sinh, lương cơ bản, thưởng, thực lãnh; trong đó thực lãnh = lương cơ bản + thưởng.
+b. In danh sách nhân viên theo thực lãnh giảm dần.
+c. In danh sách nhân viên theo mã nhân viên tăng dần.
+
+6.3. Nhập một đa thức gồm n đơn thức, mỗi đơn thức biết hệ số và số mũ.
+Tính giá trị của đa thức tại x = x_0 (với n là số nguyên không âm, các hệ số và x là số thực, số mũ là số nguyên không âm).
+
+6.4. Cho một danh sách l được cấp phát động; mỗi phần tử là một số nguyên.
+a. Tính tổng các phần tử l.
+b. Đếm số nguyên tố trong danh sách.
+c. Đếm số lượng số chẵn, số lượng số lẻ.
+d. Tìm giá trị lớn nhất.
+e. Xóa phần tử đầu danh sách.
+f. Xóa các phần tử chứa số nguyên tố trong danh sách l.
+g. Chèn vào sau mỗi nút một nút mới; trong đó giá trị của nút mới bằng tổng các chữ số của số kề trước nó.
+h. Sắp xếp các phần tử của danh sách l theo chiều tăng dần (yêu cầu thực hiện bằng phương pháp chọn trực tiếp và thay đổi vùng liên kết).
+i. Tách danh sách l thành 2 danh sách l1, l2; trong đó l1, l2 lần lượt chứa các số lẻ, các số chẵn của l.
+
+6.5. Cho cây nhị phân tìm kiếm, mỗi nút chứa một số nguyên. Viết các hàm:
+a. Các hàm cơ sở: Hãy chèn nút có giá trị k vào cây có gốc là root; tạo cây có gốc là root; các hàm duyệt cây.
+b. Tính tổng giá trị của các nút trong cây.
+c. Tìm giá trị lớn nhất của cây.
+d. Đếm số nút của cây.
+e. Đếm số nút lá của cây.
+f. Đếm số nút có đúng một cây con.
+g. Đếm số nút có hai cây con.
+h. Đếm xem có bao nhiêu nút có giá trị nguyên tố?
+i. Tìm kiếm nút có giá trị x trên cây nhị phân tìm kiếm (trả về con trỏ, trả về 0 hoặc 1).
+j. In các nút trên đường đi từ gốc đến nút có giá trị x.
+k. Tìm mức của nút có giá trị là x.
+l. Tìm chiều cao của một cây.
+m. Tính tổng các khóa là nút lá của cây.

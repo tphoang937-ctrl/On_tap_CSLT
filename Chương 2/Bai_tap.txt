@@ -1,0 +1,31 @@
+Chương 2. Cấu trúc lặp
+
+2.1. Cho số nguyên dương n.
+a. Kiểm tra xem n có phải là số nguyên tố hay không?
+b. Kiểm tra xem n có phải là số hoàn chỉnh hay không?
+c. Thảy ngẫu nhiên một con xúc xắc n lần, đếm số lần xuất hiện nút 1, 2, 3, 4, 5, 6.
+
+2.2. Tính các tổng sau (tùy theo câu hỏi mà dữ liệu nhập vào là n hoặc n và x):
+a. Tính tổng S = 1 + 1x2 + 1x2x3 + ... + 1x2x3x...xn.
+b. Tính tổng S = 1x2 + 2x3x4 + ... + n x (n+1) x ... x (2n).
+c. Giả sử n >= 1 và x là số thực, tính tổng:
+   S(x, n) = x + x^2/(1+2) + x^3/(1+2+3) + ... + x^n/(1+2+3+...+n)
+
+2.3. Tính các tổng sau (tùy theo câu hỏi mà dữ liệu nhập vào là n hoặc n và x):
+a. Giả sử n >= 1 và x là số thực. Hãy viết chương trình tính giá trị của biểu thức sau:
+   S(n, x) = x/1 - x^2/(1 + 1/2) + x^3/(1 + 1/2 + 1/3) - ... + (-1)^(n-1) * x^n/(1 + 1/2 + ... + 1/n)
+b. Tính tổng S(x, n) = -x + x^2/2! - x^3/3! + ... + (-1)^n * x^n/n!
+c. Tính tổng S(x, n) = 1 - x/(1+2) + x^2/(2+3) - ... + (-1)^n * x^n/(n+(n+1))
+
+2.4. Bài toán tính lãi suất vay theo số dư nợ giảm dần. Nhập số tiền vay, số tháng vay, lãi suất vay %/năm. Tính tổng số tiền phải trả cho ngân hàng (cả gốc lẫn lãi) khi hết thời hạn vay.
+
+2.5. Nhập vào số nguyên dương n. Tìm tất cả bộ ba số x, y, z thỏa mãn x < y < z <= n và x^2 + y^2 = z^2.
+
+2.6. Cho số nguyên dương n.
+a. Hãy tìm số đảo ngược của số n. Ví dụ: 2021 -> 1202
+b. Hãy kiểm tra xem n có phải là số cân xứng hay không? Ví dụ: 121, 10001, 44,...
+c. Kiểm tra xem n có phải là số Armstrong hay không?
+
+2.7. Tìm n nhỏ nhất sao cho tổng 1 + 2 + 3 + ... + n > m với m là số nguyên dương cho trước.
+
+2.8. Nhập 2 phân số a/b, c/d; trong đó tử số và mẫu số là các số nguyên không âm. Hãy tính a/b + c/d, a/b - c/d, a/b * c/d, a/b : c/d; yêu cầu phân số kết quả ở dạng tối giản.

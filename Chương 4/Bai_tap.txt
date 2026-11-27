@@ -1,0 +1,83 @@
+Chương 4. Mảng
+
+4.1. Cho mảng gồm n số nguyên dương a_0, a_1, ..., a_{n-1}.
+a. Đếm xem mảng chứa bao nhiêu số nguyên tố? Bao nhiêu số chính phương? Bao nhiêu số hoàn chỉnh?
+b. Đếm xem trong mảng có bao nhiêu cặp số nguyên tố cùng nhau? Ghi chú: Hai số x, y là nguyên tố cùng nhau nếu UCLN(x, y) bằng 1.
+c. Số x được gọi là số nguyên tố đối xứng nếu x là số nguyên tố và x bằng trung bình cộng của số nguyên tố liền trước và số nguyên tố liền sau của nó. Ví dụ 5 là số nguyên tố đối xứng vì 5 = (3 + 7)/2. Hãy đếm xem mảng có bao nhiêu số nguyên tố đối xứng?
+
+4.2. Cho mảng gồm n số nguyên dương a_0, a_1, ..., a_{n-1}.
+a. Tìm giá trị lớn thứ k của mảng.
+b. Hãy sắp xếp các số sao cho các số nguyên tố về cuối, các số còn lại về đầu mảng.
+
+4.3. Cho hai tập hợp A và B chứa các số nguyên.
+a. Tính: A giao B
+b. Tính: A hợp B
+c. Tính: A - B
+d. Tính: A hiệu đối xứng B = (A hợp B) - (A giao B)
+Ví dụ: A = {1, 2, 4, 6}, B = {2, 1, 7, 3, 8} thì kết quả là:
+A giao B = {1, 2}, A hợp B = {1, 2, 4, 6, 7, 3, 8}, A - B = {4, 6}, ...
+
+4.4. Cho mảng một chiều chứa n số nguyên a_0, a_1, a_2, ..., a_{n-1} (với n <= 30000).
+a. Hãy tìm mảng con liên tiếp tăng có nhiều phần tử nhất (tức mảng con liên tiếp tăng dài nhất)?
+b. Đếm xem mảng có bao nhiêu cặp số a_i, a_j có tổng bằng m với i < j, m là số nguyên nhập từ bàn phím.
+c. Tìm giá trị lớn nhất của các cặp số a_j - a_i thỏa điều kiện 0 <= i <= j <= n - 1.
+
+4.5. Cho mảng một chiều chứa n số nguyên a_0, a_1, a_2, ..., a_{n-1} (với n <= 30000).
+a. Hãy tìm 3 số sao cho tích của chúng là lớn nhất (xuất tích lớn nhất tìm được).
+b. Hãy đếm xem mảng số này có bao nhiêu giá trị khác nhau?
+c. Tìm tần số xuất hiện các giá trị. Hỏi giá trị nào xuất hiện nhiều lần nhất?
+d. Cho mảng một chiều gồm n số nguyên dương a_0, a_1, a_2, ..., a_{n-1}. Hãy xóa các số nguyên tố trong mảng.
+
+4.6. Cho mảng một chiều gồm n số nguyên dương a_0, a_1, a_2, ..., a_{n-1}.
+a. Viết hàm đệ quy tính tổng các phần tử của mảng.
+b. Viết hàm đệ quy tìm giá trị lớn nhất của mảng.
+c. Viết hàm đệ quy đếm xem mảng có bao nhiêu số nguyên tố?
+
+4.7. Cho một mảng hai chiều a có m dòng và n cột (m, n <= 500); các phần tử là các số nguyên dương.
+Hãy viết chương trình thực hiện các công việc sau:
+a. Đếm xem trong mảng có bao nhiêu số Armstrong?
+b. Tìm số nguyên tố lớn nhất của mảng.
+c. Hãy tìm hình vuông lớn nhất chứa toàn số nguyên tố, hãy cho biết kích thước của hình vuông đó.
+
+4.8. Cho một mảng hai chiều a có m dòng và n cột (m, n <= 500); các phần tử là các số nguyên dương.
+Hãy viết chương trình thực hiện các công việc sau:
+a. Tìm giá trị nhỏ nhất trên mỗi dòng, sau đó tìm giá trị lớn nhất trong số các giá trị nhỏ nhất vừa tìm được.
+b. Tìm giá trị lớn nhất trên mỗi cột, sau đó tìm giá trị nhỏ nhất trong số các giá trị lớn nhất vừa tìm được.
+c. Thay thế mỗi phần tử a_{ij} của mảng bằng tổng các chữ số của chính phần tử đó. Ví dụ số 2020 được thay bằng số 4. Hãy tính tổng các phần tử của mảng sau khi đã tiến hành thay thế theo quy tắc trên.
+
+4.9. Cho một mảng hai chiều a có m dòng và n cột (m, n <= 500); các phần tử là các số nguyên dương.
+Hãy viết chương trình thực hiện các công việc sau:
+a. Sắp xếp các số tăng dần trên từng dòng.
+b. Sắp xếp các số tăng dần trên từng cột.
+c. Sắp xếp các phần tử tăng dần trên mỗi dòng từ trái qua phải và tăng dần trên mỗi cột từ trên xuống dưới.
+
+4.10. Cho hai ma trận a, b cùng có n dòng n cột; các phần tử của a là các số nguyên. Hãy viết các hàm thực hiện các công việc sau:
+a. Tính tổng của hai ma trận a, b.
+b. Tính tích của hai ma trận a, b.
+c. Tạo ma trận c bằng cách nhân các phần tử của ma trận a với giá trị lớn nhất của dòng tương ứng của ma trận b.
+Ví dụ:
+Ma trận a      Ma trận b
+1 2 3          2 1 3
+4 3 2          3 2 1
+5 3 7          4 5 2
+Kết quả câu a:
+3 3 6
+7 5 3
+9 8 9
+Kết quả câu b:
+20 20 11
+25 20 19
+47 46 32
+Kết quả câu c:
+3 6 9
+12 9 6
+25 15 35
+
+4.11. Cho một mảng hai chiều a có m dòng và n cột (m, n <= 500); các phần tử là các số nguyên dương.
+Hãy viết chương trình tìm vị trí các phần tử a_{ij} sao cho nó là phần tử lớn nhất trên dòng i và là phần tử nhỏ nhất trên cột j (phần tử này gọi là phần tử "yên ngựa"). Xuất giá trị và vị trí tìm được (chỉ cần tìm một phần tử thỏa mãn).
+
+4.12. Cho mảng một chiều s chứa các ký tự chữ hoa, chữ thường và ký tự khoảng trắng (gọi là một chuỗi). Giả sử s không có khoảng trắng đầu chuỗi, không có khoảng trắng cuối chuỗi, giữa các từ chỉ có một khoảng trắng. Các ký tự liền nhau gọi là một từ.
+a. Hãy tìm một từ đầu tiên bên trái, một từ đầu tiên bên phải.
+b. Từ dài nhất có bao nhiêu ký tự?
+c. Sắp xếp các ký tự theo chiều tăng (theo mã ASCII), các ký tự khoảng trắng giữ nguyên vị trí.
+d. Tìm tần số xuất hiện mỗi ký tự (không kể ký tự khoảng trắng).

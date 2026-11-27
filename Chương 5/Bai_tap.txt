@@ -1,0 +1,50 @@
+Chương 5. Kiểu dữ liệu có cấu trúc
+
+5.1. Nhập vào mảng một chiều chứa n phân số; trong đó tử số và mẫu số là các số nguyên dương.
+Hãy thực hiện các công việc sau:
+a. Tìm phân số có giá trị lớn nhất của mảng.
+b. Hãy tính tổng các phân số của mảng; kết quả là một phân số tối giản.
+c. Hãy sắp xếp các phân số của mảng theo chiều tăng dần.
+Ví dụ:
+n = 4
+3/7  2/5  17/6  16/21
+Kết quả câu a: 17/6
+Kết quả câu b: 929/210
+Kết quả câu c: 2/5  3/7  16/21  17/6
+
+5.2. Trong mặt phẳng tọa độ OXY, cho n điểm P_i(x_i, y_i); tọa độ mỗi điểm P_i là các số nguyên. Hãy viết chương trình thực hiện các công việc sau:
+a. Đếm xem có bao nhiêu điểm thuộc về mỗi góc phần tư? Có bao nhiêu điểm nằm trên các trục tọa độ?
+(Ghi chú: I. x > 0, y > 0; II. x < 0, y > 0; III. x < 0, y < 0; IV. x > 0, y < 0; nằm trên các trục tọa độ: có hoành độ bằng 0 hoặc có tung độ bằng 0).
+b. Tìm một cặp điểm gần nhau nhất, xuất thứ tự cặp điểm đó và khoảng cách tìm được.
+Ví dụ: n = 6; tọa độ 6 điểm lần lượt là: (3;4), (5;7), (-2;-3), (-4;0), (3;-7), (2;6) thì
+Kết quả câu a:
+số điểm nằm ở phần tư thứ I là: 3
+số điểm nằm ở phần tư thứ II là: 0
+số điểm nằm ở phần tư thứ III là: 1
+số điểm nằm ở phần tư thứ IV là: 1
+số điểm nằm ở trên hai trục tọa độ là: 1
+Kết quả câu b: 1  6  2.23607
+c. Đếm xem có bao nhiêu điểm nằm phía trên, phía dưới và thuộc đường thẳng 3x + 4y + 1 = 0.
+
+5.3. Cho n tam giác; mỗi tam giác biết số đo 3 cạnh.
+a. Hãy tìm diện tích lớn nhất của các tam giác trên.
+b. Hãy tính tổng diện tích của tất cả các tam giác.
+
+5.4. Trong kỳ thi tuyển sinh cao học có n thí sinh dự thi. Mỗi thí sinh cần quản lý các thông tin sau: Số báo danh (chuỗi ký tự), Họ và tên, Điểm môn ngoại ngữ, Điểm môn cơ bản, Điểm môn cơ sở. Điểm tổng của 3 môn thi = Điểm môn ngoại ngữ + Điểm môn cơ bản + Điểm môn cơ sở.
+Nhập thông tin cho n thí sinh theo mô tả trên. Hãy thực hiện các công việc sau:
+a. Tìm những thí sinh có ít nhất một môn thi có điểm nhỏ hơn 5.
+b. Đếm xem có bao nhiêu thí sinh có điểm tất cả các môn thi đều lớn hơn hoặc bằng 5 và có tổng điểm thi của hai môn cơ bản và môn cơ sở >= 12.
+c. Tìm những thí sinh có Điểm tổng của ba môn thi là lớn nhất.
+d. Sắp xếp danh sách theo chiều giảm dần của tổng điểm 3 môn thi.
+
+5.5. Cho mảng hai chiều; mỗi phần tử chứa một phân số; trong đó tử số và mẫu số là các số nguyên dương.
+a. Hãy tìm vị trí các phân số có giá trị lớn nhất.
+b. Hãy đếm xem có bao nhiêu phân số đã tối giản.
+c. Hãy sắp xếp các phần tử của mảng tăng dần từ trái qua phải và từ trên xuống dưới.
+
+5.6. Khai báo cấu trúc SOPHUC (số phức)
+a. Tìm độ lớn của một số phức.
+b. Hãy tính tổng, hiệu, tích, thương của 2 số phức.
+
+5.7. Nhập một đa thức gồm n đơn thức, mỗi đơn thức biết hệ số và số mũ.
+Tính giá trị của đa thức tại x = x_0 (trong đó n là số nguyên không âm, các hệ số và x là số thực, số mũ là số nguyên không âm).

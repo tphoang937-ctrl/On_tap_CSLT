@@ -1,0 +1,28 @@
+Chương 1. Giới thiệu ngôn ngữ lập trình C/C++
+
+1.1. Nhập vào t giây, hãy đổi t giây ra dạng giờ - phút - giây.
+Ví dụ: t = 3700 thì kết quả là: 1h 1m 40s
+
+1.2. Trong mặt phẳng tọa độ OXY cho ba điểm A, B, C lần lượt có tọa độ là (x_A, y_A), (x_B, y_B), (x_C, y_C).
+Hãy tìm tọa độ trọng tâm, diện tích đường tròn nội tiếp, diện tích đường tròn ngoại tiếp của tam giác ABC.
+Note: S = p.r; trong đó p là nửa chu vi, S là diện tích tam giác ABC; R = (a x b x c) : 4S; => r, R; => ...
+
+1.3. Nhập vào 6 số nguyên. Hãy đếm xem trong đó có bao nhiêu số âm, bao nhiêu số bằng 0, bao nhiêu số dương?
+
+1.4. Nhập vào bốn số nguyên a, b, c, d.
+a. Tìm giá trị lớn nhất, tìm giá trị nhỏ nhất.
+b. Sắp xếp bốn số này theo thứ tự tăng dần.
+
+1.5. Giải phương trình ax^2 + bx + c = 0 với các hệ số là các số thực.
+
+1.6. Giải hệ phương trình bậc nhất hai ẩn số với các hệ số là các số nguyên:
+    a1*x + b1*y = c1
+    a2*x + b2*y = c2
+
+1.7. Nhập vào ba số nguyên dương a, b, c. Hỏi a, b, c có phải số đo ba cạnh của một tam giác hay không? Nếu có, hãy xét xem đó là tam giác đều, tam giác vuông, tam giác cân hay tam giác thường?
+
+1.8. Nhập vào bốn số nguyên a, b, c, d.
+a. Hỏi có bao nhiêu giá trị khác nhau?
+b. Tìm khoảng cách gần nhất giữa hai trong bốn số trên. Ví dụ: nếu a, b, c, d nhập vào là 16, 9, 1, 12 thì khoảng cách gần nhất tìm được là 3.
+
+1.9. Viết chương trình tính diện tích của các hình sau: Hình vuông (biết chiều dài cạnh), hình chữ nhật (biết chiều dài hai cạnh), hình tam giác (biết chiều dài ba cạnh), hình tròn (biết chiều dài bán kính). Biết rằng các tham số nhập vào từ bàn phím. Chương trình cần hỗ trợ một menu đơn giản để người dùng có thể tính diện tích của một hình cụ thể (bài toán này đã được đề cập ở các chủ đề trước; yêu cầu giải lại bằng cách sử dụng chương trình con).

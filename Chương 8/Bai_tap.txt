@@ -1,0 +1,136 @@
+Chương 8. Kỹ thuật lập trình với file
+
+8.1. Cho dãy n số nguyên dương a_1, a_2, ..., a_n.
+a. Đếm xem dãy a_1, a_2, ..., a_n chứa bao nhiêu số nguyên tố?
+b. Hãy sắp xếp các phần tử của dãy a_1, a_2, ..., a_n theo thứ tự tăng dần.
+Dữ liệu vào được cho từ file văn bản NUM.INP có cấu trúc như sau:
+- Dòng đầu chứa số n
+- Dòng thứ hai chứa n số nguyên a_1, a_2, ..., a_n.
+Kết quả ghi vào file văn bản NUM.OUT gồm 2 dòng, mỗi dòng ghi kết quả ứng với mỗi câu trên.
+Ví dụ:
+NUM.INP:
+11
+6 9 7 8 11 4 12 3 1 8 2
+NUM.OUT:
+4
+1 2 3 4 6 7 8 8 9 11 12
+
+8.2. Cho dãy n số nguyên a_1, a_2, ..., a_n.
+a. Tìm giá trị lớn nhất của dãy a_1, a_2, ..., a_n.
+b. Tìm chiều dài của dãy con liên tiếp tăng dài nhất, tức là chứa nhiều phần tử nhất.
+c. Tìm giá trị trung vị của dãy số trên (số trung vị của dãy số là số nằm ở vị trí a[n/2] của dãy sau khi sắp xếp dãy).
+Dữ liệu vào được cho từ file văn bản NUM.INP có cấu trúc như sau:
+- Dòng đầu chứa số nguyên n
+- Dòng thứ hai chứa n số nguyên a_1, a_2, ..., a_n.
+Kết quả ghi vào file văn bản NUM.OUT gồm 3 dòng, mỗi dòng ghi kết quả ứng với mỗi câu trên.
+
+8.3. Cho mảng hai chiều a có m dòng và n cột (m, n <= 200); các phần tử là các số nguyên dương. Hãy viết chương trình hoàn chỉnh thực hiện các công việc sau:
+a. Đếm xem mảng có bao nhiêu số nguyên tố?
+b. Cho biết giá trị lớn nhất trong số các tổng các phần tử trên mỗi dòng.
+c. Cho biết giá trị nhỏ nhất trong số các tổng các phần tử trên mỗi cột.
+Dữ liệu vào được cho từ file văn bản table.inp; trong đó:
++ Dòng đầu ghi 2 số m, n
++ Trong m dòng tiếp theo mỗi dòng ghi n số; mỗi số cách nhau ít nhất một khoảng trắng.
+Kết quả ghi vào file văn bản table.out gồm 3 dòng; mỗi dòng ghi kết quả của mỗi câu tương ứng.
+Ví dụ:
+table.inp:
+4  5
+3   4   2   2   1
+5   10  101 13  10
+4   20  31  101 3
+101 31  10  101 7
+table.out:
+13
+250
+21
+
+8.4. Cho mảng hai chiều a có m dòng và n cột (m, n <= 200); các phần tử là các số nguyên dương. Hãy viết chương trình hoàn chỉnh thực hiện các công việc sau:
+a. Tìm giá trị lớn nhất của mảng. Có bao nhiêu số bằng giá trị lớn nhất?
+b. Tìm tổng các phần tử trên mỗi cột.
+Dữ liệu được cho từ file văn bản table.inp; trong đó:
+- Dòng đầu ghi 2 số m, n
+- Trong m dòng tiếp theo mỗi dòng ghi n số; mỗi số cách nhau ít nhất một khoảng trắng.
+Kết quả ghi vào file văn bản table.out gồm 2 dòng; mỗi dòng ghi kết quả của mỗi câu tương ứng.
+Ví dụ:
+table.inp:
+4 5
+3   4   2   2   1
+5   10  101 13  10
+4   20  31  101 3
+101 31  10  101 7
+table.out:
+101 4
+113 65 144 217 21
+
+8.5. Cho tập tin văn bản table.txt có cấu trúc như sau:
+- Dòng đầu ghi hai số nguyên dương m, n;
+- Trong m dòng tiếp theo mỗi dòng ghi n số nguyên có giá trị từ 1 đến 6.
+Hãy viết chương trình thực hiện các công việc sau:
+a. Đọc tập tin văn bản trên ra mảng hai chiều a có m dòng n cột; trong đó chỉ số dòng từ 1 đến m, chỉ số cột từ 1 đến n (các số thuộc m dòng n cột này gọi là bảng số).
+b. Tìm giá trị trung bình cộng các số trong bảng số.
+c. Hãy đếm xem mỗi giá trị trong bảng số xuất hiện bao nhiêu lần?
+Kết quả cần được ghi vào tập tin văn bản result.txt có cấu trúc như sau:
+- Dòng đầu ghi một số thực (lấy đến 2 chữ số ở phần thập phân) là kết quả của câu b.
+- Dòng tiếp theo ghi kết quả câu c bao gồm 6 số nguyên theo thứ tự lần lượt là tần số xuất hiện của các giá trị 1, 2, 3, 4, 5, 6.
+Ví dụ:
+table.txt:
+5 7
+1 5 1 2 2 3 5
+1 5 2 2 2 3 3
+1 3 3 1 3 3 3
+6 3 6 6 6 3 1
+4 4 6 6 6 4 4
+result.txt:
+3.40
+6 5 10 4 3 7
+
+8.6. Cho file văn bản table.txt có cấu trúc như sau: dòng đầu ghi hai số nguyên dương m và n; trong m dòng tiếp theo mỗi dòng ghi n số nguyên.
+Hãy viết chương trình đọc file văn bản table.txt ra mảng hai chiều a; trong đó vị trí dòng, vị trí cột của mảng a bắt đầu tính từ 0.
+a. Tìm giá trị lớn nhất của mảng a; tìm vị trí của các phần tử lớn nhất này.
+b. Tính tổng các phần tử trên từng dòng của mảng a.
+Kết quả được ghi vào file văn bản table_result.txt có cấu trúc như sau:
+Dòng đầu ghi kết quả câu a, dòng thứ hai ghi kết quả câu b.
+Ví dụ:
+table.txt:
+5 8
+7  21 28 6  50 23 30 24
+13 41 35 26 35 32 22 36
+45 22 46 18 41 21 50 34
+50 47 20 17 45 25 9  26
+10 23 38 34 16 41 28 48
+table_result.txt:
+50 0 4 2 6 3 0
+189 240 277 239 238
+
+8.7. Cho file văn bản str_input.txt, mỗi dòng của file chứa một chuỗi; chiều dài tối đa của mỗi chuỗi là 512 ký tự (giả thiết đầu chuỗi và cuối chuỗi không có ký tự khoảng trắng, giữa các từ của chuỗi có một ký tự khoảng trắng).
+Viết chương trình hoàn chỉnh thực hiện các công việc sau:
+a. Tìm từ bên phải của mỗi chuỗi trong file str_input.txt.
+b. Tìm một chuỗi có nhiều ký tự nhất trong file str_input.txt.
+Ghi kết quả tìm được vào file văn bản str_output.txt; mỗi dòng ghi một chuỗi tìm được.
+Ví dụ:
+str_input.txt:
+University of Science and Engineering
+Faculty of Information and Communication Technology
+Institute of Data Science and Artificial Intelligence
+str_output.txt:
+Engineering
+Technology
+Intelligence
+Institute of Data Science and Artificial Intelligence
+
+8.8. Cho file văn bản str.txt, mỗi dòng của file chứa một chuỗi; chiều dài tối đa của mỗi chuỗi là 512 ký tự. Hãy viết chương trình tìm một chuỗi có chiều dài dài nhất trong file văn bản str.txt.
+Ghi chuỗi tìm được vào file văn bản str_result.txt.
+Ví dụ:
+str.txt:
+university of information and communication technology
+computer science department
+computer engineering department
+str_result.txt:
+university of information and communication technology
+
+8.9. Cho tập tin input.txt chứa một chuỗi ký tự gồm các ký tự chữ cái thường và các ký tự khoảng trắng. Viết chương trình hoàn chỉnh đọc chuỗi ký tự và cho biết tần suất xuất hiện các ký tự có trong tập tin input.txt (không kể ký tự khoảng trắng).
+Kết quả được ghi trong tập tin output.txt theo mô tả như ở ví dụ sau:
+input.txt:
+chao mung cac sinh vien khoa cong nghe thong tin
+output.txt:
+a 3 c 4 e 2 g 4 h 5 i 3 k 1 m 1 n 7 o 4 s 1 t 2 u 1 v 1
